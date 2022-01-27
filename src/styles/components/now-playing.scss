@@ -29,7 +29,8 @@
     height: auto;
     max-width: 60vw;
     width: 100%;
-    animation: rotation 2s;
+    border-radius: 50%;
+    animation: rotation 4s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     @keyframes rotation {
