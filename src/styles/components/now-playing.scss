@@ -29,6 +29,17 @@
     height: auto;
     max-width: 60vw;
     width: 100%;
+    animation: rotation 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
   }
 
   &__details {
